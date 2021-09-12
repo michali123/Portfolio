@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*the equivalent of 100% font size = 16px, so 90px/16 *100= 562.2%
+this is used to make it more dynamic in case some browases display larger font customized by the user.
+1 em (unit) = 16pix - %100
+very important to remember is that em and precentages are relative to the bodt font size!
+rem- ignores all parents and relativity! so this is the solution for this.*/
+  font-family: 'Sacramento', cursive;
+  margin-top: 50px;
+}
+
+.middle-container{
+  margin: 30px 0;
+}
+.description{
+  font-size: 2.5rem;
+  margin: 10px auto 0 auto;
+  font-weight: normal;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 10px;
+
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #082032;
+  font-size: 1.55rem;
+
+
+}
+
+hr {
+  margin-top: 60px;
+  border-color: gray;
+  border-width: 6px;
+  border-style: dotted none none none;
+  width: 4%;
+  /* 40% of the webpage size */
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;;
+  margin: 10px 20px; /*10px for top and bottom 20 for left and right*/
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  letter-spacing: 2px;
+}
+
+.intro{
+  font-size: 1.2em;
+}
+
+.MS{
+  clear: left;
+  font-size: 1.2em;
+}
+
+.entrepreneurship-text{
+  clear: left;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 20px auto 50px auto;
+}
+
+.skills {
+  line-height: 2;
+  text-align: left;
+
+}
+
+.startup {
+  width: 25%;
+  float: left;
+  padding-right:  30px;
+
+}
+
+.profile-pic {
+  width: 25%;
+  margin-top: 25px;
+}
+
+.skills-img {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+
+}
+
+.Foerver-A-Student {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.top-container {
+  color: white;
+  background-color: #2C394B;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  margin-top: 65;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  margin-right: 700px;
+  bottom: 300px;
+}
+
+
+.bottom-container{
+  background: #2C394B;
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+.bottom-page{
+  margin-top: 150px;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #2e7678 5%, #1e4a4a 100%);
+	background-color:#2e7678;
+	border-radius:8px;
+	border:1px solid #138a1b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat';
+	font-size:20px;
+	padding:12px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #1e4a4a 5%, #2e7678 100%);
+	background-color:#1e4a4a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
